@@ -41,7 +41,7 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald'; sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -58,9 +58,20 @@ h1 {
     margin-bottom: 1em;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 
+}
+
+/* Navbar styles with dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
 
 /* Main Content */
