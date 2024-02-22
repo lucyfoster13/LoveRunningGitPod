@@ -138,3 +138,15 @@ main {
     margin-top: 79px;
 }
 }
+
+/*Media query small laptops and up (992px)*/
+
+@media screen and (min-width: 992px) {
+
+#menu a:hover {
+    
+       text-decoration: none;
+       border-bottom: 1px solid #3a3a3a;
+   }
+
+}
