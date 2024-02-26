@@ -182,6 +182,12 @@ hr {
     max-height: 300px;
 }
 
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -223,6 +229,24 @@ main {
     right: 50px;
 }
 
+/*reasons section*/
+#benefits-physical , 
+#benefits-mental {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+#benefits-physical > div, 
+#benefits-mental > div {
+    width: 75%;
+}
+
+#benefits-mental > div {
+    text-align: end;
+    align-self: flex-end;
+}
+
 }
 
 /*Media query small laptops and up (992px)*/
@@ -236,3 +260,34 @@ main {
    }
 
 }
+
+
+/* Media query screens 1200px and wider*/
+@media screen and (min-width: 1200px) {    
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
+
+ }
