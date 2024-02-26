@@ -171,6 +171,18 @@ hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* makes square into circle*/
+    border-radius:50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /*Header*/
