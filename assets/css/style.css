@@ -102,7 +102,7 @@ main {
 
 /*hero styles*/
 #hero {
-        height: 600px;
+    height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
@@ -289,5 +289,4 @@ width: 100%;
     #benefits-physical > div {
         align-self: flex-end;
     }
-
- }
+}
